@@ -3,13 +3,30 @@ body {
 }
 
 
+
+// face jaune
+
 .round {
   background-color: #e9ea77;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   margin: 20px;
+  .smile {
+    top: 33px;
+
+  }
 }
+
+.smile {
+  background-color : #297ca0;
+  width: 50px;
+  height: 3px;
+  border-radius: 50% 100px 0 0;
+  position: relative;
+}
+
+// face violette
 
 .square {
   background-color: #46185f;
@@ -47,7 +64,7 @@ body {
   margin: 0 5px;
 }
 
-
+// face bleue
 .triangle {
   background-color: #297ca0;
   --alt-color: #e9ea77;
