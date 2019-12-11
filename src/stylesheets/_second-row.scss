@@ -60,12 +60,12 @@
     display: flex;
     justify-content: center;
     position: relative;
+    bottom: 56px;
   }
   .tooth {
     background-color: #46185f;
-    height: 20px;
-    width: 10px;
-    // border-radius: 0 0 100% 100%;
-    margin: 0 5px;
+    height: 30px;
+    border-radius: 0 0 100% 100%;
+    padding: 0 15px;
   }
 }
