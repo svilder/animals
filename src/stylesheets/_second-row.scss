@@ -1,7 +1,71 @@
+// #e9ea77 #46185f #297ca0
+
+.triangle-purple {
+  border-color: transparent #46185f;
+  border-style: solid;
+  border-width: 24px 0px 100px 70px;
+  height: 0px;
+  width: 0px;
+}
+
+.triangle-blue {
+  --alt-color: #e9ea77;
+  width: 0;
+  height: 0;
+  border-left: 110px solid transparent;
+  border-right: 110px solid transparent;
+  border-bottom: 110px solid #297ca0;
+  .eye.lefty {
+    top: 17px;
+    right: 11px;
+  }
+  .eye.righty {
+    top: 7px;
+    left: 1px;
+  }
+  .eye {
+    border: solid 3px #46185f;
+    height: 10px;
+    width: 10px;
+  }
+}
 
 
-.triangle {
-  background-color: #297ca0;
-  width: 150px;
-  height: 150px;
+
+
+
+.triangle-yellow {
+  border-color: #e9ea77 transparent;
+  border-style: solid;
+  border-width: 80px 50px 0px 50px;
+  height: 0px;
+  width: 0px;
+  .eye {
+    background-color: #46185f;
+    border: solid 2px #46185f;
+    height: 20px;
+    width: 0;
+  }
+  .eye.lefty {
+    bottom: 67px;
+    right: 7px;
+    transform: rotate(-15deg);
+  }
+  .eye.righty {
+    bottom: 87px;
+    left: 6px;
+    transform: rotate(15deg);
+  }
+  .teeth {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .tooth {
+    background-color: #46185f;
+    height: 20px;
+    width: 10px;
+    // border-radius: 0 0 100% 100%;
+    margin: 0 5px;
+  }
 }

@@ -54,6 +54,19 @@
     top: 30px;
     left: 96px;
   }
+  .teeth {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 48px;
+  }
+  .tooth {
+    background-color: #e9ea77;
+    height: 20px;
+    width: 10px;
+    border-radius: 0 0 100% 100%;
+    margin: 0 5px;
+  }
 }
 
 /////// face bleue ghost ///////
