@@ -1,11 +1,39 @@
-// #e9ea77 #46185f #297ca0
+
 
 .triangle-purple {
   border-color: transparent #46185f;
+  --alt-color: #297ca0;
   border-style: solid;
   border-width: 24px 0px 100px 70px;
   height: 0px;
   width: 0px;
+  .eye {
+    border: solid 2px #e9ea77;
+    height: 15px;
+    width: 8px;
+    /* border: groove; */
+    border-radius: 50%;
+  }
+  .eye.lefty {
+    bottom: 0px;
+    right: 38px;
+    transform: rotate(-15deg);
+  }
+  .eye.righty {
+    bottom: 15px;
+    right: 25px;
+    transform: rotate(-15deg);
+  }
+  .smile {
+    width: 31px;
+    height: 142px;
+    border: solid 2px #e9ea77;
+    border-color: transparent transparent #e9ea77 transparent;
+    border-radius: 0 0 43px 267%/200px;
+    position: relative;
+    bottom: 124px;
+    right: 63px;
+  }
 }
 
 .triangle-blue {
@@ -29,9 +57,6 @@
     width: 10px;
   }
 }
-
-
-
 
 
 .triangle-yellow {
@@ -60,12 +85,14 @@
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 56px;
+    bottom: 71px;
+    right: 20px;
+    width: 39px;
   }
   .tooth {
     background-color: #46185f;
-    height: 30px;
-    border-radius: 0 0 100% 100%;
-    padding: 0 15px;
+    height: 17px;
+    width: 15px;
+    border-radius: 0 0 70% 100%;
   }
 }
