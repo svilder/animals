@@ -88,6 +88,7 @@
     bottom: 71px;
     right: 20px;
     width: 39px;
+    transition-timing-function: ease-in-out;
   }
   .hair {
     background-color: #46185f;
@@ -95,8 +96,4 @@
     width: 15px;
     border-radius: 0 0 70% 100%;
   }
-}
-
-.big {
-  background-color:lightblue;
 }
