@@ -1,5 +1,4 @@
-
-
+////// triangle smile ///////
 .triangle-purple {
   border-color: transparent #46185f;
   --alt-color: #297ca0;
@@ -36,6 +35,7 @@
   }
 }
 
+////// fat triangle lunettes ////////////
 .triangle-blue {
   --alt-color: #e9ea77;
   width: 0;
@@ -58,7 +58,7 @@
   }
 }
 
-
+/////////// yellow little triangle with moustaches /////////
 .triangle-yellow {
   border-color: #e9ea77 transparent;
   border-style: solid;
@@ -81,7 +81,7 @@
     left: 6px;
     transform: rotate(15deg);
   }
-  .teeth {
+  .moustache {
     display: flex;
     justify-content: center;
     position: relative;
@@ -89,7 +89,7 @@
     right: 20px;
     width: 39px;
   }
-  .tooth {
+  .hair {
     background-color: #46185f;
     height: 17px;
     width: 15px;
