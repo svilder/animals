@@ -12,7 +12,8 @@ const eye5 = container.querySelector('.move5');
 const eye6 = container.querySelector('.move6');
 const walk = 50;
 const moustache = container.querySelector('.moustache');
-const hairs = moustache.querySelectorAll('.hair');
+const hair1 = moustache.querySelector('.move7');
+const hair2 = moustache.querySelector('.move8');
 
 function moveEyes(e) {
   const { offsetWidth: width, offsetHeight: height } = container;
@@ -47,7 +48,12 @@ function moveEyes(e) {
 }
 
 function moveMoustache() {
-  console.log("wouh");
+  moustache.style.transition = `
+    transform 4s ease-in-out
+  `;
+  moustache.style.transform = `
+    matrix(0.586,0.8,-0.8,0.866,0,0)
+  `;
 }
 
 container.addEventListener('mousemove', moveEyes);
